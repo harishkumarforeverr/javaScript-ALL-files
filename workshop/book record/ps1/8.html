@@ -1,0 +1,36 @@
+<html>
+    <head>
+    </head>
+    <body style="background-color:lightskyblue;"> 
+      <script >
+            function f1()
+            {
+                var res=true;
+                var x=document.getElementsByName("username")[0].value;
+        
+                  var dotindex=x.indexOf('.');
+                var atindex=x.indexOf('@');
+                console.log(x);
+                 console.log(x.length-1);   
+                console.log(atindex);
+                  console.log(dotindex);
+                
+                console.log(atindex<1);
+                console.log(atindex>dotindex);
+                console.log(dotindex!=(x.length-4));
+
+                if(atindex<1||atindex>dotindex||dotindex!=(x.length-4))
+                res=false;
+                return res;
+            }
+        </script>
+        <form action="4.html" method="post" onsubmit="return f1()">
+            <label> email_id : </label>
+            <input type="text"  name="username" />
+             <br/>
+        <br/>
+            <input type="submit" value="registor" />
+        </form>
+     
+    </body>
+</html>

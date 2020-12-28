@@ -1,0 +1,4 @@
+create table testing_table
+(
+str char(40);
+);

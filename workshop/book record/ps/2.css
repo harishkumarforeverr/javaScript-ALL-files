@@ -1,0 +1,179 @@
+ p
+{
+    font-size:15px;
+}
+img
+{
+    width:150px;
+    height:40px;
+}
+span
+{
+    color:red;
+}
+form input, form label
+{
+    margin-top:4px;
+    padding:4px;
+}
+header,footer
+{
+    background-color: #ccc; 
+    border: 1px solid black; 
+}
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav
+{
+    font-size:13px;
+}
+.login-form
+ {
+     width:400px;
+     background-color:lightblue;
+  }
+.login-form label
+ {
+    font-weight:bold;
+ }
+.login-form input[type="text"],
+.login-form input[type="number"]
+ { 
+     width:250px;
+     
+ }
+.login-form input[type="submit"],
+.login-form input[type="reset"]
+ {
+     background-color: green;
+     color:#fff;
+     border-radius:10px;
+     width:70px;   
+     padding:3px;
+     margin-top:0px;
+ }
+ 
+.login-form input[type="reset"]
+ {
+     background-color: gray;
+ }
+.login-form
+ {
+     font-weight: bold;
+      margin: 10px 10px;
+     color:#202020;
+     padding:5px;
+ }
+ .container
+ { 
+     width:990px;
+     margin: auto 10px;
+ }
+ body
+ {
+     background-color: lightgray;
+ }
+ html,body
+ {
+    margin: 0px;
+     padding: 0px;
+ }
+.ordered
+{ 
+border-radius:15px;
+}
+.login-form
+{
+    width:400px;
+}
+.comtainer
+{
+    padding:5px;
+}
+footer{
+padding-top:4px;
+}
+.login-form
+{
+    padding:10px; 
+}
+#results
+{
+     padding:10px;
+    width:400px;
+    border-radius:50px;
+    display: inline-block;
+    margin-top:10px;
+}
+#pop
+ {
+    display: inline-block;
+    vertical-align:top;
+ }
+ header nav
+ {
+     float:right;
+ }
+ header nav li
+ {
+     display: inline; 
+     margin: 4px;
+     padding-right:10px;
+     
+ }
+ a{
+    color: #007fc0;
+}
+body{
+    background-color: #007fc0;
+}
+.login-form
+{
+    border:1px solid black;
+}
+header,footer
+{
+    background-color: #7ecbf3;
+}
+.login-form input[type="submit"],
+.login-form input [type="reset"]
+{
+    background-color: #007fc0;
+}
+.login-form
+{
+    transform:rotate3d(60,60,10,120);
+}
+#resultlists
+{
+    min-height: 400;
+}
+#titleid
+{
+    font-weight:bold;
+}
+#id1
+{
+    background-color: lightgreen;
+    text-align: center;
+    border:1px solid black;
+}
+#resultlists
+{
+    background-color: lightgreen ;
+}
+#errormsg
+{
+    color:#f00;
+}
+#results,#logout
+{
+    display: inline-block;
+}
+#logout
+{
+    color:whitesmoke;
+    font-weight: bold;
+}
