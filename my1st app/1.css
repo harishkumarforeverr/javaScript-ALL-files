@@ -1,0 +1,23 @@
+hr {
+    background-color:#555; 
+}
+li{
+    padding:5px;
+}
+#btn-replay{
+    display: none;
+}
+.guess-box{
+    padding:25px;
+    margin-bottom: 3px;
+    box-shadow:0 2px 24px 0 rgba(0,0,0,0.2);
+}
+body ,.my{
+    text-align: center;
+    min-height: auto;
+    min-width: auto;
+}
+.my{
+    background-color: #ebefed;
+    padding: 5px;
+}
